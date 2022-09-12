@@ -39,7 +39,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://open.spotify.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Spotify Web Homepage  
+  Spotify Web Homepage hoihoi  
   <img src="readme-images/spotifyWeb.PNG" width="375px" alt="ohomepage van de spotify web versie">
 
   #### Screenshot(s) van de tweede pagina (small screen):
