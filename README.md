@@ -59,9 +59,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Bij het gebruik van een screenreader werd duidelijk dat het lastig is om snel te werken. Je moet eerst aanhoren wat er op de pagina is voordat je weet    wat er uberhaupt mogelijk is en waar je mee kunt interacten.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  
 
 
   #### Muis en Toetsenbord 
