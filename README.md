@@ -112,16 +112,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+<img src="readme-images/newSpotify.png" width="375px" alt="breakdown van de hele pagina">
+  
+  Dit is hoe mijn pagina er op het moment uit ziet. Ik vond het in het begin lastig om het grid ghoed in elkaar te zetten. Ook had ik moeite met de header zelf. De uitlijning en de juiste afmetingen vinden ging namelijk niet heel makkelijk. Uiteindelijk ben ik dr wel uit gekomen en heb ik vrijwel alle elementen uit de homepage al af.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hoe stellen jullie je css op  | en dit             | en ik dit    | en dan ik dat    |
+  | Hoe erg is het dat ik nog geen main heb? | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
