@@ -195,6 +195,12 @@ nav a {
 
 /* Blokjes styling */
 
+main button{
+	position: fixed;
+	top: 8px;
+	z-index: 3;
+}
+
 section {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto;
@@ -289,9 +295,14 @@ article p {
 }
 
 /* Small screen css */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 936px) {
 	body {
 		grid-template-columns: auto;
+	}
+
+	nav {
+		transform: translateX(-100%);
+		z-index: 2;
 	}
 
 	header {
@@ -300,23 +311,36 @@ article p {
 		grid-column: 1;
 	}
 
-	nav {
-		transform: translateX(-100%);
-		z-index: 2;
+	main {
+		grid-column: 1;
+		width: 100vw;
 	}
 
 	section {
-		grid-template-columns: none;
+		width: 100vw;
+		grid-template-columns: auto;
 		grid-gap: 8px;
-	}
-
-	main {
-		grid-column: 1;
+		grid-template-rows: none;
 	}
 
 	section a {
 		width: 167px;
-		grid-row: auto;
+		grid-row-start: 2;
+		grid-row-end: auto;
+	}
+
+}
+
+@media only screen and (max-width: 420px) {
+	section {
+		width: 100vw;
+		grid-template-columns: none;
+		grid-gap: 8px;
+	}
+
+	section a {
+		width: 167px;
+		grid-row-start: auto;
 	}
 
 	section h2 {

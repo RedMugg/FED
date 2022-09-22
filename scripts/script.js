@@ -1,7 +1,7 @@
 // JavaScript Document
 console.log("hi");
 
-var hamButton = document.querySelector("header img:nth-of-type(1)");
+var hamButton = document.querySelector("main button:nth-of-type(1)");
 var navBar = document.querySelector("nav");
 
 hamButton.addEventListener("click", doeIets);

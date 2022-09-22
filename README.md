@@ -129,10 +129,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Css sorteer je op basis van html volgorde en categorie css elementen.
+  - Een main is verplicht, nav en header mogen beiden daarintegen buiten de main staan.
 
 </details>
 
@@ -146,15 +144,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben deze week bezig geweest met het responsive maken van de website dmv breakpoints. Ook heb ik een begin gemaakt aan het hamburger menu. Deze is al bijna af en werkend op elk scherm. Op het moment loop ik een beetje te puzzelen met het responsive maken maar dit lukt steeds beter en ik kom stap voor stap langzaam vooruit. Hier en daar moet er wel nog wat aan de styling gedaan worden maar dit is makkelijk te doen.
+Zo ziet het er nu uit.
 
+
+Groot scherm:
+
+<img src="readme-images/spotifyWk3_Desktop.png" width="375px" alt="breakdown van de hele pagina">
+
+
+Klein scherm:
+
+<img src="readme-images/spotifyWk3_mobile.png" width="375px" alt="breakdown van de hele pagina">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | Ik heb deze week geen punten om te bespreken.  | Ik had nog wat vragen over het hamburger menu.             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -165,7 +173,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 1
   - punt 2
   - nog een punt
-- ...
+  - ...
 
 </details>
 
