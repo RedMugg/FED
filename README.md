@@ -170,9 +170,9 @@ Klein scherm:
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Container queries bestuderen
+  - Focus state verwerken
+  - 
   - ...
 
 </details>
