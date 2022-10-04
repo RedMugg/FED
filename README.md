@@ -39,7 +39,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://open.spotify.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Spotify Web Homepage hoihoi  
+  Spotify Web Homepage  
   <img src="readme-images/spotifyWeb.PNG" width="375px" alt="ohomepage van de spotify web versie">
 
   #### Screenshot(s) van de tweede pagina (small screen):
@@ -92,13 +92,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets.png" width="736px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### dynamisch deel (Rechtermuisknop op playlist): 
+  <img src="readme-images/popup.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -114,7 +111,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
 <img src="readme-images/newSpotify.png" width="375px" alt="breakdown van de hele pagina">
   
-  Dit is hoe mijn pagina er op het moment uit ziet. Ik vond het in het begin lastig om het grid ghoed in elkaar te zetten. Ook had ik moeite met de header zelf. De uitlijning en de juiste afmetingen vinden ging namelijk niet heel makkelijk. Uiteindelijk ben ik dr wel uit gekomen en heb ik vrijwel alle elementen uit de homepage al af.
+  Dit is hoe mijn pagina er op het moment uit ziet. Ik vond het in het begin lastig om het grid goed in elkaar te zetten. Ook had ik moeite met de header zelf. De uitlijning en de juiste afmetingen vinden ging namelijk niet heel makkelijk. Uiteindelijk ben ik dr wel uit gekomen en heb ik vrijwel alle elementen uit de homepage al af.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -172,8 +169,6 @@ Klein scherm:
 
   - Container queries bestuderen
   - Focus state verwerken
-  - 
-  - ...
 
 </details>
 
@@ -188,29 +183,28 @@ Klein scherm:
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Links als h3 ipv a element
+  - Maak gebruik van aria-labels
+  - Layout veranderd bij het gebruik van tab
+  - Tabben skipt sommige links in de nav menu.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader pakt alles goed op, alleen doordat sommige a elementen niet als a elementen in de html staan wordt niet goed opgepakt dat dit een interactief element is.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit is te verbeteren door er gewoon een a element van te maken ipv een h3.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier geldt eigenlijk hetzelfde als voor de screenreader. Ook moet ik de aria-labels goed gaan toepassen om een duidelijke beschrijving van elke link aan te geven.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Iedereen zou het kunnen gebruiken alleen zou het handig zijn om bijvoorbeeld dmv de pijltjes toetsen door de afspeellijsten te kunnen bladeren, nu moet je persé met de muis of touchpad scrollen.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Bij het gebied van visuele beperkingen waren er eigenlijk geen negatieve punten. Je kan zowel met kleurenblindheid en blurred vision de site goed doorlopen.
+  Een punt van verbetering was dat de langere zinnen of ingekort of vergroot moeten worden door een groter lettertype voor de mensen met Combined Loss.
 
 </details>
 
@@ -224,7 +218,8 @@ Klein scherm:
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben deze week veel blijven hangen omdat mijn motivatie mistte. Ik hoop dat deze week weer in te halen.
+
 
 
   ### Agenda voor meeting
@@ -232,19 +227,15 @@ Klein scherm:
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Deze week had ik geen punten om te bespreken.  | en dit             | en ik dit    | en dan ik dat    |
+  | ... | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Doorwerken!!
 </details>
 
 
@@ -257,19 +248,19 @@ Klein scherm:
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/desktop_2.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik merkte dat wanneer ik aan de slag ging met de site en eenmaal bezig was ik gemakkelijk vooruitgang kon boeken. Dit was dan tijdens de lessen zelf. Ook had ik weinig moeite met de stof zelf, dit kwam denk ik vooral door mijn vorige opleiding.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/mobile_2.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik vond het lastig om thuis de motivatie te vinden om aan de opdracht te werken, hierdoor is het mij ook nog niet gelukt om een resultaat neer te zetten waar ik tevreden mee ben. (Of die af is)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/mobile_2_playlist.png" width="375px" alt="bummer">
 </details>
 
 
