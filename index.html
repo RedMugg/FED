@@ -14,6 +14,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
 		rel="stylesheet">
+
+	<title>Spotify - Web Player</title>
 </head>
 
 <body>
@@ -21,7 +23,7 @@
 	<nav>
 		<!-- Logo Spotify -->
 		<a href="index.html">
-			<title>Spotify - Web Player</title>
+			<h1 aria-label="Spotify Web Player"></h1>
 			<img src="./images/spotifyHome.png">
 		</a>
 		<ul>
@@ -35,7 +37,7 @@
 			<li>
 				<!-- Search -->
 				<a>
-					<img src="./images/homeIcon.svg">
+					<img src="./images/searchIcon-01.png">
 					<h2>Search</h2>
 				</a>
 			</li>
@@ -43,7 +45,7 @@
 				<!-- Your Library -->
 
 				<a href="playlist.html">
-					<img src="./images/homeIcon.svg">
+					<img src="./images/libraryIcon.png">
 					<h2>Your Library</h2>
 				</a>
 			</li>
@@ -53,14 +55,14 @@
 			<li>
 				<!-- Create Playlist -->
 				<a href="playlist.html">
-					<img src="./images/homeIcon.svg">
+					<img src="./images/createPl.png">
 					<h2>Create Playlist</h2>
 				</a>
 			</li>
 			<li>
 				<!-- Liked Songs -->
 				<a href="playlist.html">
-					<img src="./images/homeIcon.svg">
+					<img src="./images/heartIcon.png">
 					<h2>Liked Songs</h2>
 				</a>
 			</li>
@@ -71,13 +73,10 @@
 		<ul>
 			<li>
 				<button>
-					< </button>
-			</li>
-
-			<li>
-				<button>
-					>
-				</button>
+					< </button> </li> <li>
+						<button>
+							>
+						</button>
 			</li>
 		</ul>
 
@@ -100,12 +99,16 @@
 	<main>
 
 		<button>
-			<img src="./images/libraryIcon.png" alt="Hamburger menu icon">
+			<img src="./images/hamburgerIcon.png" alt="Hamburger menu icon">
 		</button>
 
 		<section>
-			<h2>Spotify Playlists</h2>
-			<h3>SEE ALL</h3>
+
+			<div>
+				<h2>Spotify Playlists</h2>
+				<a href="playlist.html" aria-label="See all">SEE ALL</a>
+			</div>
+
 			<ul>
 				<a href="playlist.html" aria-label="Today's Top Hits">
 					<article>
@@ -115,7 +118,7 @@
 						<p>Nicki Minaj is on top of the Hottest 50!</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f00000002a91b1101f786d78d6d5adef9">
@@ -124,7 +127,7 @@
 						<p>RIP PnB Rock.</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f00000002f95e0d3dd06dbadb407ef766">
@@ -133,7 +136,7 @@
 						<p>The biggest songs of the 2010s.</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f00000002fb1854533582c7bdc25f3da1">
@@ -142,7 +145,7 @@
 						<p>Rock legends & epic songs that continue to inspire generations.</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f00000002d755df5cc7ad4bb90160a63c">
@@ -151,7 +154,7 @@
 						<p>Kick back to the best new and recent chill hits.</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f000000025c447e2fd82ca8dda138263e">
@@ -165,8 +168,12 @@
 		</section>
 
 		<section>
-			<h2>Spotify Playlists</h2>
-			<h3>SEE ALL</h3>
+
+			<div>
+				<h2>Spotify Playlists</h2>
+				<a href="playlist.html" aria-label="See all">SEE ALL</a>
+			</div>
+
 			<ul>
 				<a href="playlist.html" aria-label="Today's Top Hits">
 					<article>
@@ -176,7 +183,7 @@
 						<p>Nicki Minaj is on top of the Hottest 50!</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f00000002a91b1101f786d78d6d5adef9">
@@ -185,7 +192,7 @@
 						<p>RIP PnB Rock.</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f00000002f95e0d3dd06dbadb407ef766">
@@ -194,7 +201,7 @@
 						<p>The biggest songs of the 2010s.</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f00000002fb1854533582c7bdc25f3da1">
@@ -203,7 +210,7 @@
 						<p>Rock legends & epic songs that continue to inspire generations.</p>
 					</article>
 				</a>
-	
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f00000002d755df5cc7ad4bb90160a63c">
@@ -212,7 +219,72 @@
 						<p>Kick back to the best new and recent chill hits.</p>
 					</article>
 				</a>
-	
+
+				<a href="playlist.html">
+					<article>
+						<img src="https://i.scdn.co/image/ab67706f000000025c447e2fd82ca8dda138263e">
+						<img src="./images/spotifyPlay.svg">
+						<h3>Viva Latino</h3>
+						<p>Today's top Latin hits, elevando nuestra música. Cover: Camilo</p>
+					</article>
+				</a>
+
+			</ul>
+		</section>
+
+		<section>
+
+			<div>
+				<h2>Spotify Playlists</h2>
+				<a href="playlist.html" aria-label="See all">SEE ALL</a>
+			</div>
+
+			<ul>
+				<a href="playlist.html" aria-label="Today's Top Hits">
+					<article>
+						<img src="https://i.scdn.co/image/ab67706f00000002e8641a419c367f9504f587aa">
+						<img src="./images/spotifyPlay.svg">
+						<h3>Today's Top Hits</h3>
+						<p>Nicki Minaj is on top of the Hottest 50!</p>
+					</article>
+				</a>
+
+				<a href="playlist.html">
+					<article>
+						<img src="https://i.scdn.co/image/ab67706f00000002a91b1101f786d78d6d5adef9">
+						<img src="./images/spotifyPlay.svg">
+						<h3>RapCaviar</h3>
+						<p>RIP PnB Rock.</p>
+					</article>
+				</a>
+
+				<a href="playlist.html">
+					<article>
+						<img src="https://i.scdn.co/image/ab67706f00000002f95e0d3dd06dbadb407ef766">
+						<img src="./images/spotifyPlay.svg">
+						<h3>All Out 2010s</h3>
+						<p>The biggest songs of the 2010s.</p>
+					</article>
+				</a>
+
+				<a href="playlist.html">
+					<article>
+						<img src="https://i.scdn.co/image/ab67706f00000002fb1854533582c7bdc25f3da1">
+						<img src="./images/spotifyPlay.svg">
+						<h3>Rock Classics</h3>
+						<p>Rock legends & epic songs that continue to inspire generations.</p>
+					</article>
+				</a>
+
+				<a href="playlist.html">
+					<article>
+						<img src="https://i.scdn.co/image/ab67706f00000002d755df5cc7ad4bb90160a63c">
+						<img src="./images/spotifyPlay.svg">
+						<h3>Chill Hits</h3>
+						<p>Kick back to the best new and recent chill hits.</p>
+					</article>
+				</a>
+
 				<a href="playlist.html">
 					<article>
 						<img src="https://i.scdn.co/image/ab67706f000000025c447e2fd82ca8dda138263e">

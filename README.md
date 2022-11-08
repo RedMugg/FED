@@ -62,25 +62,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Bij het gebruik van een screenreader werd duidelijk dat het lastig is om snel te werken. Je moet eerst aanhoren wat er op de pagina is voordat je weet    wat er uberhaupt mogelijk is en waar je mee kunt interacten.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  
+  Je kan dit oplossen door bijvoorbeeld duidelijke arial labels te gebruiken.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Je kon opzich wel makkelijk door de site heen door alleen toetsenbord of alleen de muis te gebruiken.
+  Dit komt vooral omdat er een duidelijke structuur inde website zit dat wanneer je tab gebruikt om door de site heen te lopen je op logische plekken terecht komt. Hierdoor is het makkelijk om de site te besturen.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Het werd hier wel lastiger om de site te besturen, ook kwam dit doordat niet alle knoppen comfortabel groot waren waardoor je heel goed moest richten op de knoppen. Dit is natuurlijk met een motorische beperking niet heel makkelijk.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit kan je dus oplossen om alle interactieve onderdelen wat groter af te beelden.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Doordat de site eigenlijk vrijwel alleen gebruik maakt van een kleurenpalette bestaande uit 4 kleuren (Grijs, Wit, Groen en licht zwart) was er weinig op aan te merken bij de visuele beperkingen. Wel was het soms lastig om de kleine letters onder de playlisten te zien omdat dit te druk werd om te lezen.
 
 </details>
 
@@ -264,7 +261,27 @@ Klein scherm:
 </details>
 
 
+## Herkansing (week "6")
 
+<details>
+  <summary>uitwerken voor eindgesprek</summary>
+
+  ### Je uitkomst - karakteristiek screenshots:
+  <img src="readme-images/Home_Eind_desk.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/home_eind_mobile.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/playlist_eind_desk.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/playlist_eind_mobile.png" width="375px" alt="uitomst opdracht 1">
+    <img src="readme-images/hamburger_open.png" width="375px" alt="uitomst opdracht 1">
+
+
+
+  ### Dit ging goed/Heb ik geleerd: 
+Ik heb helaas in de tijd voor de herkansing weinig kunnen doen/gedaan aan de opdracht waardoor ik weer achter begon te lopen. Toch heb ik na een gesprek met mijn slbér de moed gevonden om verder te werken en toch de opdracht geprobeert optijd af te krijgen.
+Ik ben nu dan ook wel tevreden over het werk wat ik heb opgeleverd.
+
+
+  ### Dit was lastig/Is niet gelukt:
+Het ging dus niet zo lekker met mijn planning, nu ik weer motivatie heb gevonden hoop ik dat dit beter zal gaan in het vervolg.
 
 
 ## Bronnenlijst
@@ -274,8 +291,6 @@ Klein scherm:
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://open.spotify.com voor de foto's gebruikt als playlist covers.
 
 </details>
